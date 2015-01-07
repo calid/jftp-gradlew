@@ -1,0 +1,14 @@
+
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    runtime 'org.objectweb.joram:jftp:+'
+}
+
+apply plugin: 'application'
+
+mainClassName = 'net.sf.jftp.JFtp'
